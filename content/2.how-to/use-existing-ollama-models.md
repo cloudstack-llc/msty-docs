@@ -1,0 +1,51 @@
+---
+title: Use existing Ollama Models
+description: Learn how to use your existing Ollama models with Msty
+---
+
+Msty can share models download location with Ollama. This allows you to use the models that you have already downloaded prior to installing Msty on your computer, as well as continue using them with Ollama if necessary.
+
+You will need to update Msty's models path to Ollama's models path to use the downloaded models.
+
+To update the models path:
+
+::steps
+### Open Msty's settings
+
+Click on the settings icon from the sidebar to open the settings dialog.
+
+### Go to Local AI
+
+Once the setting dialog opens, click on the Local AI settings from the sidebar.
+
+### Edit models path
+
+Under Local AI Service, click on the edit button in Models Path setting to edit the models path.
+
+Ollama models are generally located under:
+
+::tabs{variant="card"}
+    ::div{label="Windows" icon="iconoir:windows"}
+    ```
+    C:\Users\<username>\.ollama\models
+    ```
+    ::
+    ::div{label="Mac" icon="hugeicons:apple"}
+    ```
+    /Users/<username>/.ollama/models
+    ```
+    ::
+    ::div{label="Linux" icon="ph:linux-logo"}
+    ```
+    /usr/share/ollama/.ollama/models
+    ```
+    ::
+::
+
+::alert{type="info" icon="solar:info-circle-linear"}
+If you changed your Ollama models path using the `OLLAMA_MODELS` environment variable, then you'll need to use the path you set instead of the default locations mentioned above.
+::
+
+::
+
+Once you confirm the changes, Local AI service will restart for the changes to take effect. Once the service is running, you'll be able to see the models you have downloaded from Ollama in the model selector and chat with them in Msty.
