@@ -6,7 +6,7 @@ export default defineAppConfig({
         "Get started with guides and resources to maximize your conversational AI experience with Msty.",
     },
     theme: {
-      customizable: true,
+      customizable: false,
       color: "blue",
       radius: 0.5,
     },
@@ -19,13 +19,13 @@ export default defineAppConfig({
         dark: "/icon.svg",
       },
       nav: [],
-      links: [
-        {
-          icon: "tabler:brand-github",
-          to: "https://github.com/CloudStack-LLC/msty-docs",
-          target: "_blank",
-        },
-      ],
+      // links: [
+      //   {
+      //     icon: "tabler:brand-github",
+      //     to: "https://github.com/cloudstack-llc/msty-docs",
+      //     target: "_blank",
+      //   },
+      // ],
     },
     aside: {
       useLevel: true,
@@ -36,11 +36,16 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: "Copyright © 2024",
+      credits: "CloudStack, LLC",
       links: [
+        // {
+        //   icon: "tabler:brand-github",
+        //   to: "https://github.com/cloudstack-llc/msty-docs",
+        //   target: "_blank",
+        // },
         {
-          icon: "tabler:brand-github",
-          to: "https://github.com/CloudStack-LLC/msty-docs",
+          icon: "ph:cube",
+          to: "https://msty.app?ref=docs",
           target: "_blank",
         },
       ],
@@ -50,9 +55,8 @@ export default defineAppConfig({
       title: "On This Page",
       links: [
         {
-          title: "Star on GitHub",
-          icon: "solar:star-linear",
-          to: "https://github.com/CloudStack-LLC/msty-docs",
+          title: "Go to Msty App",
+          to: "https://msty.app?ref=docs",
           target: "_blank",
         },
       ],
