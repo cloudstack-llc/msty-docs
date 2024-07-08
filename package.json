@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "nuxt": "^3.12.2",
+    "shadcn-docs-nuxt": "latest",
     "vue": "^3.4.31",
-    "vue-router": "^4.4.0",
-    "shadcn-docs-nuxt": "latest"
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.63.1"
   }
 }
