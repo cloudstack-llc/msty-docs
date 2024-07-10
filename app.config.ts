@@ -51,7 +51,7 @@ export default defineAppConfig({
       ],
     },
     toc: {
-      enable: true,
+      enable: false,
       title: "On This Page",
       links: [
         {
