@@ -6,7 +6,7 @@ export default defineAppConfig({
         "Get started with guides and resources to maximize your conversational AI experience with Msty.",
     },
     theme: {
-      customizable: true,
+      customizable: false,
       color: "blue",
       radius: 0.5,
     },
@@ -20,11 +20,11 @@ export default defineAppConfig({
       },
       nav: [],
       links: [
-        {
-          icon: "tabler:brand-github",
-          to: "https://github.com/CloudStack-LLC/msty-docs",
-          target: "_blank",
-        },
+        // {
+        //   icon: "tabler:brand-github",
+        //   to: "https://github.com/CloudStack-LLC/msty-docs",
+        //   target: "_blank",
+        // },
       ],
     },
     aside: {
@@ -36,17 +36,17 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: "Copyright © 2024",
+      credits: "Copyright © 2024. CloudStack, LLC",
       links: [
         {
-          icon: "tabler:brand-github",
-          to: "https://github.com/CloudStack-LLC/msty-docs",
+          icon: "ph:cube",
+          to: "https://msty.app?ref=docs",
           target: "_blank",
         },
       ],
     },
     toc: {
-      enable: true,
+      enable: false,
       title: "On This Page",
       links: [
         {
