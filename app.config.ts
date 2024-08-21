@@ -19,13 +19,13 @@ export default defineAppConfig({
         dark: "/icon.svg",
       },
       nav: [],
-      // links: [
-      //   {
-      //     icon: "tabler:brand-github",
-      //     to: "https://github.com/cloudstack-llc/msty-docs",
-      //     target: "_blank",
-      //   },
-      // ],
+      links: [
+        {
+          icon: "tabler:brand-github",
+          to: "https://github.com/cloudstack-llc/msty-docs",
+          target: "_blank",
+        },
+      ],
     },
     aside: {
       useLevel: true,
