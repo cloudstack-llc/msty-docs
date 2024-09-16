@@ -83,5 +83,13 @@ API keys are required to access the services provided by Online AI services. Her
 * **Usage Dashboard:** https://api.together.xyz/settings/billing
 * **Token Pricing Information:** https://api.together.xyz/models
 
+## **SambaNova**
+
+* **API Endpoint:** `https://api.sambanova.ai/v1`
+* **API Key URL:** https://cloud.sambanova.ai/apis
+* **Key Visibility:** Only Once
+* **Usage Dashboard:** https://cloud.sambanova.ai/usage
+* **Token Pricing Information:** https://cloud.sambanova.ai/pricing
+
 
 (Special thanks to our Discord community member, Frewtloops, for compiling this list!)
