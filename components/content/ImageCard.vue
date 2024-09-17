@@ -1,12 +1,12 @@
 <template>
-<div class="mt-5">
+  <div class="mt-5">
     <NuxtLink :to="src" :target="target">
       <UiCard
         class="transition-all relative h-full"
         :class="[src && 'hover:bg-muted']"
       >
         <div class="p-4">
-          <NuxtImg :src="src" :alt="alt" class="rounded-lg" />
+          <NuxtImg :src="src" :alt="alt" class="rounded-lg size-full" />
         </div>
       </UiCard>
     </NuxtLink>
