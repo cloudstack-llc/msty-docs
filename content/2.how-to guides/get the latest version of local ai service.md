@@ -23,9 +23,9 @@ chmod +x ~/Library/Application\ Support/Msty/msty-local
 1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases 
 2. From under `Assets`, download the latest version of Ollama for Windows by downloading `ollama-windows-amd64.zip`.
 3. Once downloaded, extract the contents of the zip file and copy `ollama-windows.exe` to `C:\Users\<username>\AppData\Roaming\Msty` and rename it as `msty-local.exe`.
-4. Copy `ollama_runners` folder to `C:\Users\<username>\AppData\Roaming\Msty`.
-5. If you are on NVIDIA GPU, copy `cuda` folder to `C:\Users\<username>\AppData\Roaming\Msty`.
-6. If you are on AMD GPU, copy `rocm` folder to `C:\Users\<username>\AppData\Roaming\Msty`.
+4. Copy `lib` folder to `C:\Users\<username>\AppData\Roaming\Msty`.
+5. If you are on NVIDIA GPU, you can optionally remove `rocm` 
+6. If you are on AMD GPU, you can optionally remove `cuda`
 7. Restart Msty and verify the version of Local AI service by going to `Settings` > `Local AI Service > Service Version`.
 
 **Note**: There is a small annoyance with the official build of Ollama where during chatting it opens up a blank Terminal window. You could just ignore it or wait for the latest
@@ -33,12 +33,26 @@ release of Msty. We have sent a PR to Ollama team and waiting for it to get merg
 
 
 ## On Linux
-1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases  
-2. From under `Assets`, download the latest version of Ollama for Linux by downloading the one appropriate for your system - either `ollama-linux-amd64` or `ollama-linux-arm64`
-3. Once downloaded, copy it to `~/.config/Msty` and rename it as `msty-local`
-4. Open Terminal and run the following command to make the file executable:
+
+### For CUDA users:
+
+1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
+2. From under `Assets`, download the latest version of Ollama for Linux - `ollama-linux-amd64.tgz`
+3. Once downloaded, copy `lib` to `~/.config/Msty/`
+4. Copy `bin/ollama` to `~/.config/Msty/` and rename it as `msty-local`
+5. Open Terminal and run the following command to make the file executable:
 ```bash
 chmod +x ~/.config/Msty/msty-local
 ```
-5. Restart Msty and verify the version of Local AI service by going to `Settings` > `Local AI Service > Service Version`.
+6. Restart Msty and verify the version of Local AI service by going to `Settings` > `Local AI Service > Service Version`.
 
+### For ROCm (AMD GPU) users:
+1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
+2. From under `Assets`, download the latest version of Ollama for Linux by downloading the one appropriate for your system - either `ollama-linux-amd64-rocm.tgz`
+3. Once downloaded, copy `lib` to `~/.config/Msty/`
+4. Copy `bin/ollama` to `~/.config/Msty/` and rename it as `msty-local`
+5. Open Terminal and run the following command to make the file executable:
+```bash
+chmod +x ~/.config/Msty/msty-local
+```
+6. Restart Msty and verify the version of Local AI service by going to `Settings` > `Local AI Service > Service Version`.
