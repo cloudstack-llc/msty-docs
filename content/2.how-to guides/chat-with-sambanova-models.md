@@ -61,9 +61,9 @@ Follow the steps below to add and use the SambaNova models in Msty.
 
   You can choose to add any or all of the following models:
 
-  - Meta-Llama-3.1-8B-Instruct
-  - Meta-Llama-3.1-70B-Instruct
-  - Meta-Llama-3.1-405B-Instruct
+  - `Meta-Llama-3.1-8B-Instruct`
+  - `Meta-Llama-3.1-70B-Instruct`
+  - `Meta-Llama-3.1-405B-Instruct`
 
   Once you are done adding models, click the Add button on the bottom right.
   
