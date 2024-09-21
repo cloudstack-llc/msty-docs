@@ -2,7 +2,7 @@
   <div class="mt-5">
     <NuxtLink :to="src" :target="target">
       <div class="p-4">
-        <NuxtImg :src="src" :alt="alt" class="rounded-lg mx-auto size-full" />
+        <NuxtImg :src="src" :alt="alt" class="rounded-lg mx-auto" />
       </div>
     </NuxtLink>
     <p class="text-center my-4 text-sm text-muted-foreground">
