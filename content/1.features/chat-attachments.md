@@ -1,5 +1,5 @@
 ---
-title: Text Chat Attachments 
+title: Chat Attachments 
 description: Enhance your chats with documents, images, and YouTube link attachments
 ---
 
@@ -7,7 +7,7 @@ In Msty, you can attach files, images, and YouTube links to enhance your convers
 
 Learn about the different types of attachments and how to add and manage them below.
 
-::image-plain{src="/features/text-chat-attachments/youtube-video-attachments.webp" alt="YouTube video attachments in Msty"}
+::image-plain{src="/features/chat-attachments/youtube-video-attachments.webp" alt="YouTube video attachments in Msty"}
 :: 
 
 ## Documents
