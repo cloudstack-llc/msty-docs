@@ -7,37 +7,39 @@ In Msty, you can attach files, images, and YouTube links to enhance your convers
 
 Learn about the different types of attachments and how to add and manage them below.
 
-::image-plain{src="/features/chat-attachments/youtube-video-attachments.webp" alt="Chat attachments in Msty"}
-:: 
+::tabs
+  ::div{label="Images" icon="tabler:library-photo"}
+    ### Images
+    You can easily attach images to your chat by either dropping them directly into the chat input box or clicking on the attachments icon. Once added, images can be selected or unselected during the chat, allowing you to control which attachments are included in the conversation.
 
-## Documents
+    By default, images are **cached**, meaning they will be stored and reused as-is during the chat. You can toggle between cached and live mode using the **bolt icon** near the image thumbnail:
+    - **Cached Mode:** The default option, storing the image for reuse without reloading.
+    - **Live Mode:** When toggled on, the image will be reread from the disk every time it's referenced, ensuring you are using the latest version.
 
-1. **Attaching Documents**: 
-   - You can attach documents by **dragging and dropping** them into the chat input box or by using the **attachments icon** and selecting the Documents tab.
-   
-2. **Manage Document Attachments**:
-   - **Select or Unselect**: After adding a document, toggle its selection to include or exclude it from the current conversation.
-   
-3. **Document Caching & Live Mode**:
-   - Click the **bolt icon** near the document thumbnail to switch between **caching** the document (stored for reference during the chat session) or marking it as **live** (reloaded from disk with every new message for real-time updates).
+    ::image-plain{src="/features/chat-attachments/image-attachments.webp" alt="Image Attachments"}
+    ::
+  ::
 
-## Images
+  ::div{label="Documents" icon="tabler:library"}
+    ### Documents
+    Adding documents works the same way as images—you can drop files into the input box or use the attachments icon. Like images, documents can be selected or unselected during the conversation.
 
-1. **Attaching Images**: 
-   - Similar to documents, you can attach images by **dragging and dropping** them into the chat input box or using the **attachments icon** and selecting the Images tab.
-   
-2. **Manage Image Attachments**:
-   - **Select or Unselect**: Toggle the selection checkbox to include or exclude the image from the chat.
+    Documents are **cached by default**, with the option to toggle to live mode using the **bolt icon** near the document thumbnail:
+    - **Cached Mode:** The default option, storing the document for reuse without reloading.
+    - **Live Mode:** When toggled on, the document is reread from the disk for each reference in the chat, ensuring up-to-date content.
 
-3. **Image Caching & Live Mode**:
-   - Use the **bolt icon** near the image thumbnail to toggle between **caching** the image or marking it as **live**, so it’s reloaded from disk for real-time updates.
+    ::image-plain{src="/features/chat-attachments/document-attachments.webp" alt="Document Attachments"}
+    ::
+  ::
 
-## YouTube Links :aurum-tag
+  ::div{label="YouTube Links" icon="tabler:brand-youtube"}
+    ### YouTube Links :aurum-tag
+    You can attach YouTube links to chats by dropping them directly into the chat input box or using the attachments icon, making it simple to reference videos in your conversation. This feature is available exclusively to Aurum users. As with images and documents, YouTube links can be selected or unselected as needed during the chat.
 
-1. **Attaching YouTube Links**:
-   - YouTube links can be attached by **dragging and dropping** the URL into the chat input box or via the **attachments icon**, selecting the Links tab.
-   
-2. **Manage Link Attachments**:
-   - **Select or Unselect**: Choose whether the YouTube link is included in the chat conversation.
+    When a YouTube link is attached, the **transcript is cached**, so if you attach the same link again in a new chat, Msty will utilize the cached transcript for fast retrieval, avoiding the need to process it again.
 
-> **Note**: Attaching YouTube links is available exclusively for **Aurum license** holders.
+    ::image-plain{src="/features/chat-attachments/youtube-link-attachments.webp" alt="YouTube Link Attachments"}
+    ::
+  ::
+::
+
