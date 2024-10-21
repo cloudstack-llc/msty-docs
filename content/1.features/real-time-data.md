@@ -3,11 +3,11 @@ title: Real-Time Data
 description: Bring the latest information into your chats
 ---
 
-Msty's **Real-Time Data** feature allows you to fetch live data from the internet and use it to enrich your chat conversations. You can easily toggle this feature on or off as needed.
+Msty's Real-Time Data feature allows you to fetch live data from the internet and use it to enrich your chat conversations. You can easily toggle this feature on or off as needed.
 
-#### How to Enable Real-Time Data
+#### How to enable Real-Time Data
 
-Click the **globe icon** inside the chat input box to activate Real-Time Data fetching. When active, this feature retrieves information from the internet and provides it to the model for enhanced context in your conversations.
+Click the globe icon inside the chat input box to enable the Real-Time Data feature. When this feature is enabled, Msty retrieves information from the internet and provides it to the model for enhanced context in your conversations.
 
 ## Search Provider :aurum-tag
 
@@ -21,9 +21,6 @@ By default, the provider is set to **Auto with Fallback**, which will automatica
 
 To choose a search provider and make further customizations, :shortcut{value="meta"} :shortcut{value="Click"} on the globe icon.
 
-::image-plain{src="/features/real-time-data/real-time-data-with-custom-query.webp" alt="Search Provider and Advanced Options in Real-Time Data"}
-:: 
-
 ## Advanced Options :aurum-tag
 
 The following advanced options are available for customizing your Real-Time Data search:
@@ -34,3 +31,6 @@ The following advanced options are available for customizing your Real-Time Data
 - **Date Range**: Use the **After Date** and **Before Date** selectors to limit the search results to a specific time frame.
 
 These advanced options give you more control over how Real-Time Data is fetched and integrated into your chat.
+
+::image-plain{src="/features/real-time-data/real-time-data-with-custom-query.webp" alt="Search Provider and Advanced Options in Real-Time Data"}
+:: 
