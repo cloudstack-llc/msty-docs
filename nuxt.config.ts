@@ -12,16 +12,14 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          'src': 'https://insights.msty.app/js/script.tagged-events.file-downloads.js',
-          'defer': true,
-          'data-domain': 'docs.msty.app',
-          'file-types': 'png,webp',
+          src: "https://insights.msty.app/js/script.tagged-events.file-downloads.js",
+          defer: true,
+          "data-domain": "docs.msty.app",
+          "file-types": "png,webp,dmg,zip,mp4,exe,deb,AppImage",
         } as any,
       ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      ],
-      title: 'Msty Docs',
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      title: "Msty Docs",
     },
   },
 });
