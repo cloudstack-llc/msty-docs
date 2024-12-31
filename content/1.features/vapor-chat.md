@@ -1,6 +1,7 @@
 ---
 title: Vapor Chat
 description: Flexible chat without saving—unless you want to
+navTruncate: false
 ---
 
 :aurum-tag

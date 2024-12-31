@@ -1,6 +1,7 @@
 ---
 title: License Activation
 description: Troubleshooting common license activation issues in Msty
+navTruncate: false
 ---
 
 ## Activation not persisting

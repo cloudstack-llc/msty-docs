@@ -1,6 +1,7 @@
 ---
 title: Keyboard Shortcuts
 description: Speed up your workflow with some handy keyboard shortcuts in Msty
+navTruncate: false
 ---
 
 The following keyboard shortcuts are available in Msty:

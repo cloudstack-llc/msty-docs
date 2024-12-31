@@ -1,6 +1,7 @@
 ---
 title: Install Msty on Linux
 description: Learn how to install Msty on your Linux machine
+navTruncate: false
 ---
 
 Follow the instructions below to install Msty's .AppImage or .deb installer on your Linux machine.

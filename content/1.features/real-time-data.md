@@ -1,6 +1,7 @@
 ---
 title: Real-Time Data 
 description: Bring the latest information into your chats
+navTruncate: false
 ---
 
 Msty's Real-Time Data feature allows you to fetch live data from the internet and use it to enrich your chat conversations. You can easily toggle this feature on or off as needed.

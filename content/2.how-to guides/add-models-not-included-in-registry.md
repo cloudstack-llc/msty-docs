@@ -1,6 +1,7 @@
 ---
 title: Add Models Not Included in Registry
 description: Add models that are not included in the model registry to Msty
+navTruncate: false
 ---
 
 Msty comes with a model registry that includes a variety of models from different providers. We also regularly update the registry with new models, which you can fetch without updating the app.

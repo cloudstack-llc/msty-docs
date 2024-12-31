@@ -1,6 +1,7 @@
 ---
 title: Share Msty Data Between Devices using Workspaces
 description: Learn how to share conversations, settings, API keys, Knowledge Stacks, Prompts, and more between devices.
+navTruncate: false
 ---
 
 Workspace is a collection of data that includes your conversations, settings, API keys, Knowledge Stacks, Prompts, and more. The primpary purpose of Workspaces is to create an isolated environment for your conversations, settings, and other data. You can create multiple Workspaces to keep your data separate and organized.

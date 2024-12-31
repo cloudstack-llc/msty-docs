@@ -1,6 +1,7 @@
 ---
 title: Chat with Models from SambaNova
 description: Use Llama 3.1 8B, 70B and 405B models from SambaNova in Msty
+navTruncate: false
 ---
 
 SambaNova is the only provider to offer Llama 3.1 405B in a free tier, made possible by their efficient chip architecture. Learn how to use their models in Msty.

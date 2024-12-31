@@ -1,6 +1,7 @@
 ---
 title: Chat Attachments 
 description: Enhance your chats with documents, images, and YouTube link attachments
+navTruncate: false
 ---
 
 In Msty, you can attach files, images, and YouTube links to enhance your conversations and provide additional context for your chats.

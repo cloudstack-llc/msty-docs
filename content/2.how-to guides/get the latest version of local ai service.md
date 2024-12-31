@@ -1,6 +1,7 @@
 ---
 title: Get the latest version of Local AI service
 description: Learn how to get the latest version of Local AI service
+navTruncate: false
 ---
 
 For your convenience, Msty bundles the latest version of Local AI service (Ollama) with the app at the time of the app release. 
