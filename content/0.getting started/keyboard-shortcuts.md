@@ -17,4 +17,3 @@ The following keyboard shortcuts are available in Msty:
 | :shortcut{value="meta"} :shortcut{value="Shift"} :shortcut{value="R"} | Regenerate Last AI Message |
 | :shortcut{value="↑"} | Edit Last User Message |
 | :shortcut{value="Alt or ⌥"} :shortcut{value="↑"} | Edit Last AI Message |
-| :shortcut{value="Alt or ⌥"} :shortcut{value="↑ or ↓"} | Navigate Between Messages |
