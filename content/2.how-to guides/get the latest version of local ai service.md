@@ -12,8 +12,8 @@ If you are unable to download the latest version of Local AI service using this 
 
 ## On macOS
 1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
-2. From under `Assets`, download the latest version of Ollama for macOS by downloading `ollama-darwin` (NOT `ollama-darwin.zip`).
-3. Once downloaded, copy `ollama-darwin` to `~/Library/Application Support/Msty` and rename it as `msty-local`.
+2. From under `Assets`, download the latest version of Ollama for macOS by downloading `ollama-darwin.tgz` (NOT `ollama-darwin.zip`).
+3. Once downloaded and extracted, copy `ollama-darwin` to `~/Library/Application Support/Msty` and rename it as `msty-local`.
 4. Open Terminal and run the following command to make the file executable:
 ```bash
 chmod +x ~/Library/Application\ Support/Msty/msty-local
