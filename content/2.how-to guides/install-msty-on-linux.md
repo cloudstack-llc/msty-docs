@@ -31,7 +31,7 @@ Once you have downloaded Msty, navigate to the directory where you downloaded th
   ./<DownloadedFileName>.AppImage --no-sandbox
   ```
 
-  Note: You may need to install appropriate packages like libfuse2 (if your system does not have them already) inorder to run the AppImage file.
+  Note: You may need to install appropriate packages like libfuse2 (if your system does not have them already) in order to run the AppImage file.
   ::
 
   ::div{label="deb" icon="tabler:brand-debian"}
