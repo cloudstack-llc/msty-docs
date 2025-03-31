@@ -27,11 +27,10 @@ If you are unable to download the latest version of Local AI service using this 
       4. Rename `ollama.exe` to `msty-local.exe`.
       5. Move `lib` folder to `C:\Users\<username>\AppData\Roaming\Msty`
 
-      #### Additional config for ROCm (AMD GPU) users only:
-      1. Delete `lib` folder from `C:\Users\<username>\AppData\Roaming\Msty` if exists
-      2. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
-      3. From under `Assets`, download `ollama-windows-amd64-rocm.tgz`
-      4. Once downloaded, extract contents and move `lib` folder to `C:\Users\<username>\AppData\Roaming\Msty`
+      #### Additional config for AMD ROCm™ GPU users only:
+      1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
+      2. From under `Assets`, download `ollama-windows-amd64-rocm.tgz`
+      3. Once downloaded, extract contents and move the whole `rocm` folder under `lib\ollama` to `C:\Users\<username>\AppData\Roaming\Msty\lib\ollama`
     ::
 
     ::div{label="Mac" icon="hugeicons:apple"}
@@ -51,18 +50,17 @@ If you are unable to download the latest version of Local AI service using this 
 
       1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
       2. From under `Assets`, download `ollama-linux-amd64.tgz`
-      3. Once downloaded, unzip and move `bin` and `lib` to `~/.config/Msty/`
+      3. Once downloaded, unzip and move `bin` and `lib` directories to `~/.config/Msty/`
       4. Rename `ollama` executable under `bin` to `msty-local`
       5. Open Terminal and run the following command to make the file executable:
       ```bash
       chmod +x ~/.config/Msty/bin/msty-local
       ```
       
-      #### Additional config for ROCm (AMD GPU) users only:
-      1. Delete `lib` folder from `~/.config/Msty` if exists
-      2. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
-      3. From under `Assets`, download `ollama-linux-amd64-rocm.tgz`
-      4. Once downloaded, unzip and move `lib` under `~/.config/Msty/`
+      #### Additional config for AMD ROCm™ GPU users only:
+      1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
+      2. From under `Assets`, download `ollama-linux-amd64-rocm.tgz`
+      3. Once downloaded, unzip and move the whole `rocm` directory under `lib/ollama` to `~/.config/Msty/lib/ollama`
     ::
 ::
 
