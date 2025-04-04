@@ -51,7 +51,7 @@ To resolve, try adding `NODE_TLS_REJECT_UNAUTHORIZED=0` prior to the app binary.
 Open a terminal window and run the following command:
 
 ```sh
-set NODE_TLS_REJECT_UNAUTHORIZED=0 && C:\Path\To\Msty.exe
+set NODE_TLS_REJECT_UNAUTHORIZED=0 && C:\Users\<USERNAME>\AppData\Local\Programs\Msty\Msty.exe
 ```
 
 ::
@@ -64,17 +64,6 @@ Open a terminal window and run the following command:
 
 ```sh
 NODE_TLS_REJECT_UNAUTHORIZED=0 /Applications/Msty.app/Contents/MacOS/Msty
-```
-
-::
-::div{label="Linux" icon="ph:linux-logo"}
-
-### Linux
-
-Open a terminal window and run the following command:
-
-```sh
-NODE_TLS_REJECT_UNAUTHORIZED=0 /path/to/Msty
 ```
 
 ::
