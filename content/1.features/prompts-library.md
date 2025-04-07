@@ -20,9 +20,9 @@ You may further customize the default prompts to better suit your needs.
 
 ### Importing Prompts
 
-If you would like to import prompts, you can do so by clicking on the **Import Prompts** button that appears when you select the ellipsis menu next to **Add New Prompt**.
+If you would like to import prompts, you can do so by clicking on the **Import Prompts** button that appears when you select the ellipsis menu next to **Add New Prompt**. Find the parent folder you'd like to import on your local machine and select it. Ensure that you have the below file structure before importing.
 
-#### Use the following structure to import your prompts
+**File structure**
 
 - Parent Folder Name (this can be any name you'd like): ie - `my-custom-prompts`
   - Subfolder Name (this will be used as the prompt name): ie `Short Description`
