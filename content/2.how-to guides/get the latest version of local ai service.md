@@ -35,14 +35,12 @@ If you are unable to download the latest version of Local AI service using this 
 
     ::div{label="Mac" icon="hugeicons:apple"}
       ### Mac
-      1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
-      2. From under `Assets`, download `ollama-darwin.tgz` (NOT `Ollama-darwin.zip`).
-      3. Once downloaded and extracted, move `ollama-darwin` to `~/Library/Application Support/Msty`
-      4. Rename `ollama-darwin` to `msty-local`
-      5. Open Terminal and run the following command to make the file executable:
-      ```bash
-      chmod +x ~/Library/Application\ Support/Msty/msty-local
-      ```
+      1. Close the app. Make sure msty-local is not running in your Activity monitor.
+      2. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
+      3. From under `Assets`, download `ollama-darwin.tgz` (NOT `Ollama-darwin.zip`).
+      4. Once downloaded and extracted, move `ollama` to `~/Library/Application Support/Msty`. Do not copy the whole folder. But the executable inside the extracted folder.
+      5. Rename `ollama` to `msty-local`
+      6. Restart the app
     ::
 
     ::div{label="Linux" icon="ph:linux-logo"}
@@ -53,9 +51,6 @@ If you are unable to download the latest version of Local AI service using this 
       3. Once downloaded, unzip and move `bin` and `lib` directories to `~/.config/Msty/`
       4. Rename `ollama` executable under `bin` to `msty-local`
       5. Open Terminal and run the following command to make the file executable:
-      ```bash
-      chmod +x ~/.config/Msty/bin/msty-local
-      ```
       
       #### Additional config for AMD ROCm™ GPU users only:
       1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
