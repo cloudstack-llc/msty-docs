@@ -1,12 +1,16 @@
 name: Deploy to NuxtHub
-on: push
+on:
+  push:
+    branches:
+      - 'prod'
 
 jobs:
-  deploy:
-    name: "Deploy to NuxtHub"
+  deploy-prod:
+    if: github.ref == 'refs/heads/prod'
+    name: "Deploy Production"
     runs-on: ubuntu-latest
     environment:
-      name: ${{ github.ref == 'refs/heads/prod' && 'production' || 'preview' }}
+      name: 'production'
       url: ${{ steps.deploy.outputs.deployment-url }}
     permissions:
       contents: read
@@ -15,25 +19,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - name: Bun install
+        uses: oven-sh/setup-bun@v2
         with:
-          version: 9
+          bun-version: latest
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
 
-      - name: Ensure NuxtHub module is installed
-        run: pnpx nuxthub@latest ensure
-
-      - name: Build application
-        run: pnpm build
+      - name: Build site
+        run: bun run build
 
       - name: Deploy to NuxtHub
         uses: nuxt-hub/action@v1
