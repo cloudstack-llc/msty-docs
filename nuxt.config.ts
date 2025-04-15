@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   extends: ["shadcn-docs-nuxt"],
   compatibilityDate: "2024-07-02",
+  modules: ["@nuxthub/core"],
   app: {
     head: {
       script: [
