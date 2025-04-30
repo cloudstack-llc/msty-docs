@@ -51,6 +51,10 @@ If you are unable to download the latest version of Local AI service using this 
       3. Once downloaded, unzip and move `bin` and `lib` directories to `~/.config/Msty/`
       4. Rename `ollama` executable under `bin` to `msty-local`
       5. Open Terminal and run the following command to make the file executable:
+
+      ```sh
+      chmod +x ~/.config/Msty/bin/msty-local
+      ```
       
       #### Additional config for AMD ROCm™ GPU users only:
       1. Go to releases page on the Ollama repository: https://github.com/ollama/ollama/releases
