@@ -70,6 +70,15 @@ NODE_TLS_REJECT_UNAUTHORIZED=0 /Applications/Msty.app/Contents/MacOS/Msty
 
 ::
 
+## Encryption error
+
+If you encounter an "... Encryption is not available" error when trying to activate your license, it may be due to one of the following reasons: 
+1. You don't have a keychain setup on your system.
+2. Your keychain is not enabled. 
+3. If you are running KDE, ensure the kwallet is enabled and running. 
+
+Please investigate these possibilities to resolve the issue.
+
 ---
 
 If you still have issues activating your license, please reach out on our <a href="https://msty.app/discord?ref=docs" target="_blank">Discord</a> server for support.
