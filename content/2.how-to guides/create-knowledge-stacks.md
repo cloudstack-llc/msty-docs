@@ -4,6 +4,9 @@ description: Step-by-step guide to creating and populating Knowledge Stacks
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 ::steps
   ### 1. Start a New Stack
   Click the Knowledge Stack button in the sidebar to begin

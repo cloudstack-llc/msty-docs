@@ -4,6 +4,9 @@ description: Troubleshooting common license activation issues in Msty
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 ## Activation not persisting
 
 If you're having trouble with your Msty license activation not persisting, it might be related to your desktop environment.

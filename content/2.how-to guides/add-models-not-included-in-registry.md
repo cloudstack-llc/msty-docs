@@ -4,6 +4,9 @@ description: Add models that are not included in the model registry to Msty
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Msty comes with a model registry that includes a variety of models from different providers. We also regularly update the registry with new models, which you can fetch without updating the app.
 First make sure to get the latest models info by going to `Settings` -> `General` -> `Models Info` > `Fetch Models Info`.
 
