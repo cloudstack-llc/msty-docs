@@ -4,6 +4,9 @@ description: Learn how to share conversations, settings, API keys, Knowledge Sta
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Workspace is a collection of data that includes your conversations, settings, API keys, Knowledge Stacks, Prompts, and more. The primpary purpose of Workspaces is to create an isolated environment for your conversations, settings, and other data. You can create multiple Workspaces to keep your data separate and organized.
 
 However, you can also use Workspaces to share data between devices by saving the Workspace data to a shared folder. The shared folder could be one on your network or a Dropbox folder, an iCloud folder, etc. As long as the folder is accessible from all the devices you want to share Msty with, you can use it to share data between devices. 

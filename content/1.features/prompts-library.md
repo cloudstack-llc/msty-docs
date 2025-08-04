@@ -4,6 +4,9 @@ description: Create a library of Quick Prompts that you can use throughout Msty
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 The Prompts Library acts as a collection of Quick Prompts that you can use throughout Msty. You can create, edit, and delete prompts as needed.
 
 When you need to add a prompt, such as when adding system or user prompts to a chat, you can quickly select a prompt from the library using the Quick Prompts button.

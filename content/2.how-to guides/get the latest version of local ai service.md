@@ -4,6 +4,9 @@ description: Learn how to get the latest version of Local AI service
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 For your convenience, Msty bundles the latest version of Local AI service (Ollama) with the app at the time of the app release. 
 However, if you want to get the latest version of Local AI service, first try going to Settings > Local AI > Service Version and clicking on `Check for Updates`.
 If there is a new version available, it will be downloaded.

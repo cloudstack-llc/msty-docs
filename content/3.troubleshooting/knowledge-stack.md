@@ -4,6 +4,9 @@ description: Basic troubleshooting steps for Knowledge Stack
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Having an issue with a knowledge stack? Let's first make sure that the basics are working. Here are some steps to troubleshoot:
 
 ## Check if Knowledge Stack is working

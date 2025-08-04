@@ -4,6 +4,9 @@ description: Learn how to manage rendering engines to optimize your experience
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Msty provides a built-in rendering engine for rendering various formats that are commonly provided in AI responses.
 
 You can manage rendering engines from **Settings > General > Enable New Rendering Engine**. Click the dropdown and select / unselect available options to manage which rendering engines are enabled.

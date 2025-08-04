@@ -4,6 +4,9 @@ description: Learn how to manage your Msty license keys
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 If you need to manage your Msty License keys, you can do so by going to [Lemon Squeezy](https://app.lemonsqueezy.com/my-orders/login).
 
 Enter the email you used to purchase your Msty Aurum license with and click 'Sign in'.

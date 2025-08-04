@@ -4,6 +4,9 @@ description: Search through conversations with advanced search
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Looking for a past conversation? Msty offers search options for searching through conversation titles and content.
 
 The Free plan includes basic search only, while the Aurum plan includes advanced search options that allow you to search through all conversations, including the content of the conversations.

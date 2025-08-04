@@ -4,6 +4,9 @@ description: Learn how to access Local AI service from other devices on your net
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 Msty's Local AI service is designed to be accessible only from the computer where it is installed. This is a security feature to prevent unauthorized access to your Local AI service. However, there are times when you may want to access your Local AI service from other devices on your network. For example, you may want to use Msty on your laptop while sitting on your couch or use it on your tablet while relaxing in your backyard. Or you might just happen to have a powerful server in your home network and want to use it to run your Local AI service and access it from your laptop or desktop.
 
 Msty makes it easy to make your Local AI service available on your network. You can enable network access to your Local AI service by following these simple steps:

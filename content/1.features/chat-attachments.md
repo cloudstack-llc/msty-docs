@@ -4,6 +4,10 @@ description: Enhance your chats with documents, images, and YouTube link attachm
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
+
 In Msty, you can attach files, images, and YouTube links to enhance your conversations and provide additional context for your chats.
 
 Learn about the different types of attachments and how to add and manage them below.
