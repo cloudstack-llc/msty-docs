@@ -4,6 +4,9 @@ description: A unified model selection and configuration tool
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 The text chat model selector in Msty provides a flexible way to choose between a variety of models, whether from remote providers such as OpenAI and Open Router, or local models hosted on your own machine.
 
 With recent improvements, users now have enhanced control over how models are organized and accessed. This includes the ability to pin frequently used models, assign specific categories to models, and configure additional settings for local models.

@@ -4,6 +4,9 @@ description: Flexible chat without saving—unless you want to
 navTruncate: false
 ---
 
+::MstyStudioDocsNotice
+::
+
 :aurum-tag
 
 Vapor chat allows you to engage in conversations using all chat features without saving the chat history. It’s perfect for one-off or temporary chats where you don’t need to retain the conversation.
