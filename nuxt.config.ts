@@ -4,6 +4,12 @@ export default defineNuxtConfig({
     "/": {
       redirect: "/getting-started/onboarding",
     },
+    "/getting-started/download": {
+      redirect: {
+        to: "https://docs.msty.studio/getting-started/download",
+        statusCode: 301
+      }
+    },
   },
   devtools: { enabled: false },
   extends: ["shadcn-docs-nuxt"],

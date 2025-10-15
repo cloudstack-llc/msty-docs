@@ -12,7 +12,7 @@ Follow the instructions below to install Msty's .AppImage or .deb installer on y
 
 ## Download Msty
 
-If you haven't downloaded Msty already, get started by [downloading](/getting-started/download) it first.
+If you haven't downloaded Msty already, get started by [downloading](https://docs.msty.studio/getting-started/download#looking-for-msty-app-1x){target="_blank"} it first.
 
 ## Installing Msty
 
